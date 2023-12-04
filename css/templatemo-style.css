@@ -59,16 +59,17 @@ body, html {
 
 nav .logo {
   float: left;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 nav .logo a {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 80px;
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
   letter-spacing: 0.5px;
+  margin-left: 10px;
 }
 
 nav .logo em {
@@ -76,10 +77,49 @@ nav .logo em {
   font-weight: 200;
 }
 
-nav .border {
+nav .border1 {
   width: 1px;
+  height: 80px;
   background: #FFF;
+  margin-left: 195px;
+  position: static;
   border: 1px solid #fff;
+}
+
+nav .border2 {
+  width: 1px;
+  height: 80px;
+  background: #FFF;
+  margin-left: 170px;
+  border: 1px solid #fff;
+  margin-top: -1px;
+}
+
+nav .border3 {
+  width: 2px;
+  height: 80px;
+  background: #FFF;
+  margin-left: 190px;
+  border: 1px solid #fff;
+  margin-top: -1px;
+}
+
+nav .border4 {
+  width: 2px;
+  height: 80px;
+  background: #FFF;
+  margin-left: 80px;
+  border: 1px solid #fff;
+  margin-top: -1px;
+}
+
+nav .border5 {
+  width: 2px;
+  height: 80px;
+  background: #FFF;
+  margin-left: 65px;
+  border: 1px solid #fff;
+  margin-top: -1px;
 }
 
 nav {
@@ -103,6 +143,7 @@ nav {
   cursor: pointer;
   transition: background 0.5s;
   border-radius: 5px;
+  margin-left: 570px;  
 }
 
 .menu-icon span,
